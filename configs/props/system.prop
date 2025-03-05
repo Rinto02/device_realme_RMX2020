@@ -29,6 +29,11 @@ persist.sys.brightness.low.gamma=true
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
+# Hardware Description
+ro.device.chipset=mt6768
+ro.device.display_resolution=720x1600
+ro.device.colorbody_phone=blazing_red
+
 # Radio
 persist.sys.radio.force_lte_ca=true
 persist.sys.fflag.override.settings_provider_model=false
